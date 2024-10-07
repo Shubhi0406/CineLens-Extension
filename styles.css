@@ -1,0 +1,103 @@
+body {
+    width: 300px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+ #searchContainer {
+    display: flex;
+    flex-direction: column;
+}
+#searchInput, #yearInput {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+#searchButton {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#searchButton:hover {
+    background-color: #0056b3;
+}
+
+#instructions {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#shortcut, #recheck {
+    align-self: center;
+}
+
+#errorMessage {
+    color: red;
+}
+  
+.hidden {
+    display: none;
+}
+
+/* Style for the settings link */
+/* #settingsLink {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: blue;
+    text-decoration: underline;
+} */
+
+#settingsIcon {
+    display: flex;
+    align-items: center; /* Center icon vertically */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 20px; /* Adjust size of the icon */
+    color: #000; /* Adjust color of the icon */
+}
+
+#settingsIcon i {
+    margin-left: 10px; /* Space between the icon and text */
+}
+
+#bookmarksBtn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#bookmarksBtn:hover {
+    background-color: #0056b3;
+}
+
+#bookmarkBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #FFD700;
+}
+
+#bookmarkBtn:hover {
+    color: #FFC107;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Style the icon as needed */
+  .icon-container i {
+    font-size: 20px; /* Adjust size as needed */
+  }
+  

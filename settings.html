@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extension Settings</title>
+    <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+    <h1>Extension Settings</h1>
+    <p class="info-text">Note: If certain details are not available in the database, they won't be displayed in the results.</p>
+    <form id="settingsForm">
+        <label>
+            <input type="checkbox" id="showRottenTomatoesRating" checked>
+            Show Rotten Tomatoes Rating
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="showReleased">
+            Show Release Date
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="showRuntime">
+            Show Runtime
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="showDirector">
+            Show Director
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="showWriters">
+            Show Writers
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="showActors">
+            Show Actors
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="showCountry">
+            Show Country
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="showAwards">
+            Show Awards
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" id="showMetascore">
+            Show Metascore
+        </label>
+        <br>
+        <button type="button" id="saveSettings">Save Settings</button>
+        <p id="statusMessage" class="hidden">Settings Saved.</p>
+    </form>
+    <a href="popup.html" id="backLink">Back</a>
+    <script src="settings.js"></script>
+</body>
+</html>
